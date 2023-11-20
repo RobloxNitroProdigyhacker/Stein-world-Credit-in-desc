@@ -1,0 +1,483 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+            <!-- GENERAL METADATA -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <base id="stein-base" />
+        <title>Free to play MMORPG - stein.world - online browser RPG</title>
+        <meta name="description" content="The fantasy MMO game stein.world is one of the first F2P multiplayer action browser based games with no download for PC, Android, MAC and Linux">
+        <meta name="keywords" content="free mmorpg, free online rpg, free online mmorpg no download, web mmorpg, browser based rpg, fantasy mmorpg, rpg online browser, pixel mmorpg, web based mmorpg, no download mmorpg">
+        <link rel="manifest" href="/manifest.json">
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57582081-2"></script>
+        <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'UA-57582081-2');
+                setInterval(function() { gtag('send', 'event', { 'eventCategory': 'Game', 'eventAction': 'Active' }) }, 30000);
+        </script>
+            <!-- MOBILE ANDROID -->
+        <meta name="application-name" content="Stein">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#000000">
+            <!-- MOBILE IOS -->
+        <meta name="apple-mobile-web-app-title" content="Free to play MMORPG - stein.world - online browser RPG">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+            <!-- LINKS -->
+        <link rel="stylesheet" media="screen" href="/assets/stylesheets/2ac1c08d73aec18e38705df2bc5f059a-main.css">
+        <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i|Fira+Sans+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+            <!-- FB -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Free to play MMORPG - stein.world - online browser RPG">
+        <meta property="og:site_name" content="Free to play MMORPG - stein.world - online browser RPG">
+        <meta property="og:description" content="The fantasy MMO game stein.world is one of the first F2P multiplayer action browser based games with no download for PC, Android, MAC and Linux">
+        <meta property="og:url" content="https://stein.world/">
+        <meta property="og:image" content="/assets/images/socialmedia/stein_1200x630.png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+            <!-- TWITTER -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@pg5_studio">
+        <meta name="twitter:creator" content="@pg5_studio">
+        <meta name="twitter:title" content="Free to play MMORPG - stein.world - online browser RPG">
+        <meta name="twitter:description" content="The fantasy MMO game stein.world is one of the first F2P multiplayer action browser based games with no download for PC, Android, MAC and Linux">
+        <meta name="twitter:image" content="/assets/images/socialmedia/stein_1200x630.png">
+        <meta name="twitter:image:src" content="/assets/images/socialmedia/stein_1200x630.png">
+            <!-- G+ -->
+        <meta itemprop="name" content="Free to play MMORPG - stein.world - online browser RPG">
+        <meta itemprop="description" content="The fantasy MMO game stein.world is one of the first F2P multiplayer action browser based games with no download for PC, Android, MAC and Linux">
+        <meta itemprop="image" content="/assets/images/socialmedia/stein_1200x630.png">
+            <!-- GOOGLE -->
+        <meta name="google" content="notranslate">
+        <meta name="thumbnail" content="/assets/images/socialmedia/stein_60x60.png">
+            <!-- ICONS MS -->
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="/assets/images/socialmedia/stein_144x144.png">
+        <meta name="msapplication-square70x70logo" content="/assets/images/socialmedia/stein_70x70.png">
+        <meta name="msapplication-square150x150logo" content="/assets/images/socialmedia/stein_150x150.png">
+        <meta name="msapplication-wide310x150logo" content="/assets/images/socialmedia/stein_310x150.png">
+        <meta name="msapplication-square310x310logo" content="/assets/images/socialmedia/stein_310x310.png">
+            <!-- ICONS IOS -->
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/images/socialmedia/stein_57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/images/socialmedia/stein_60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/socialmedia/stein_72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/images/socialmedia/stein_76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/socialmedia/stein_114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/images/socialmedia/stein_120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/socialmedia/stein_144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/images/socialmedia/stein_152x152.png">
+            <!-- ICONS ANDROID -->
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/socialmedia/stein_16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/socialmedia/stein_32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/socialmedia/stein_96x96.png">
+        <link rel="icon" type="image/png" sizes="128x128" href="/assets/images/socialmedia/stein_128x128.png">
+        <link rel="icon" type="image/png" sizes="196x196" href="/assets/images/socialmedia/stein_196x196.png">
+
+        <script type="text/javascript" src="/register-sw.js"></script>
+
+        <script type="application/ld+json">
+          {
+          "@context": "http://schema.org",
+          "@type":"VideoGame",
+          "publisher": "pg5-Studio",
+          "name":"stein.world",
+          "description":"The fantasy MMO game stein.world is one of the first F2P multiplayer action browser based games with no download for PC, Android, MAC and Linux",
+          "genre":[
+            "MMORPG",
+            "MMO",
+            "2D",
+            "Role-playing game"
+          ],
+          "url":"https://stein.world/",
+          "image":"https://stein.world/assets/images/stein-poster.jpg",
+          "screenshot":"https://stein.world/assets/images/login-background.png",
+          "sameAs": [
+            "https://www.youtube.com/channel/UC_lQD0_MU6ymO6zTJwLEjbA"
+          ],
+          "trailer":{
+            "@type":"VideoObject",
+            "url":"https://www.youtube.com/watch?v=jfxmU2CXaxk",
+            "inLanguage":"en",
+            "name":"STEIN.WORLD - Official Alpha Trailer 2018",
+            "description":"The official gameplay trailer for stein.world",
+            "thumbnailUrl":"https://img.youtube.com/vi/jfxmU2CXaxk/0.jpg",
+            "uploadDate":"Apr 02, 2018"
+          },
+          "operatingSystem": [
+            "Windows",
+            "macOS",
+            "Linux",
+            "Android",
+            "iOS"
+          ],
+          "applicationCategory": [
+            "Game"
+          ],
+          "exampleOfWork":[
+            {
+              "@type":"VideoGame",
+              "name":"stein.world",
+              "gamePlatform":[
+                "https://en.wikipedia.org/wiki/Microsoft_Windows",
+                "https://en.wikipedia.org/wiki/MacOS",
+                "https://en.wikipedia.org/wiki/Linux",
+                "https://en.wikipedia.org/wiki/Android_(operating_system)",
+                "https://en.wikipedia.org/wiki/IOS"
+              ],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.6",
+                "reviewCount": "367"
+              },
+              "applicationCategory":"Game",
+              "operatingSystem": [
+                "Windows",
+                "macOS",
+                "Linux",
+                "Android",
+                "iOS"
+              ],
+              "releasedEvent":{
+                "@type":"PublicationEvent",
+                "startDate":"2017-11-01",
+                "location":{
+                  "@type":"Place",
+                  "name":"EU"
+                }
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.6",
+            "reviewCount": "367"
+          }
+        }
+        </script>
+    </head>
+    <body id="stein-body">
+        <div id="stein-errors"></div>
+        <div id="stein-landing-page-login">
+            <div class="stein-header-container">
+                <div class="stein-header stein-window stein-text-border">
+                    <a target="_blank" rel="noopener" href="https://twitter.com/pg5_studio" class="stein-login-screen-header-icon stein-icon-twitter"></a>
+                    <a target="_blank" rel="noopener" href="https://www.facebook.com/steingame/" class="stein-login-screen-header-icon stein-icon-facebook"></a>
+                    <a target="_blank" rel="noopener" href="https://www.reddit.com/r/stein_world/" class="stein-login-screen-header-icon stein-icon-reddit"></a>
+                    <a target="_blank" rel="noopener" href="https://discord.gg/YcJGgnxWzd" class="stein-login-screen-header-icon stein-icon-discord"></a>
+                    <a target="_blank" rel="noopener" href="https://www.pg5-studio.com" class="stein-login-screen-header-icon stein-icon-pg5"></a>
+                    <input type="checkbox" id="stein-login-screen-sound-muted" />
+                    <label for="stein-login-screen-sound-muted" class="checkbox-sound-mute-label"></label>
+                    <select id="stein-login-language"></select>
+                </div>
+            </div>
+            <div id="stein-logging-in" class="stein-text-border" style="display: none;">
+                <div class="stein-logging-in-content-container stein-window">
+                    Logging in<br />
+                <span class="stein-logging-in-spinner">🌍🍺</span>
+                </div>
+            </div>
+            <div id="stein-maintenance" class="stein-window" style="display: none;">
+                <div class="stein-window-top">
+                    <span class="stein-text-border">Maintenance Mode</span>
+                </div>
+                <div class="stein-window-container stein-text-border">
+                    <div>
+                        <div>
+                            We will be back for you in a few minutes.
+                        </div>
+                    </div>
+                    <div class="stein-maintenance-window-images">
+                        <div style="width: 144px;height: 144px;margin-top: 10px;background: url(/assets/images/mm_pc.png);"></div>
+                        <div style="width: 144px;height: 144px;margin-top: 10px;background: url(/assets/images/mm_fire.png);"></div>
+                    </div>
+                    <div>
+                        <div>
+                            Our highly qualified system administrators are in the process of solving a problem or installing a new update.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="stein-login-screen-forms" class="stein-text-border">
+                <div class="stein-login-screen-logo"></div>
+                <div class="stein-login-tab-container">
+                    <div class="stein-window-top-loginscreen stein-window stein-window-top" id="stein-window-top-login">
+                        <span class="stein-window-top-label">LOGIN</span>
+                    </div><div class="stein-window-top-loginscreen stein-window stein-window-top" id="stein-window-top-join" style="display: none;">
+                        <span class="stein-window-top-label">SERVER SELECT</span>
+                    </div><div class="stein-window-top-loginscreen stein-window stein-window-top unselected-tab" id="stein-window-top-register">
+                        <span class="stein-window-top-label">REGISTER</span>
+                    </div>
+                </div>
+                <div class="stein-login-tab-content-container stein-window">
+                    <form id="stein-login-screen-login">
+                        <label for="stein-login-screen-login-name" class="stein-form-label">Username:</label>
+                        <input autocomplete="username" type="text" id="stein-login-screen-login-name" /><br />
+                        <label for="stein-login-screen-login-password" class="stein-form-label">Password:</label>
+                        <input autocomplete="current-password" type="password" id="stein-login-screen-login-password" /><br />
+                        <label for="stein-login-screen-server-select" class="stein-form-label">Server:</label>
+                        <select id="stein-login-screen-server-select">
+                            <option value="ptr">Loading...</option>
+                        </select>
+                        <span class="stein-form-label"></span>
+                        <button type="submit" id="stein-login-screen-login-button">Login</button><a href="/forgotpassword" class="button">Forgot password</a>
+                    </form>
+                    <div id="stein-login-screen-join" style="display: none;">
+                        <label for="stein-login-screen-join-name" class="stein-form-label">Logged in as:</label>
+                        <input type="text" id="stein-login-screen-join-name" readonly disabled /><br />
+                        <label for="stein-login-screen-join-server-select" class="stein-form-label">Server:</label>
+                        <select id="stein-login-screen-join-server-select">
+                            <option value="ptr">Loading...</option>
+                        </select>
+                        <span class="stein-form-label"></span>
+                        <button type="submit" id="stein-login-screen-join-button">Join</button>
+                        <button type="submit" id="stein-login-screen-logout-button" class="button-red">Logout</button>
+                    </div>
+                    <form id="stein-login-screen-register">
+                        <div id="stein-login-screen-register-character-head-prev" class="button">«</div>
+                        <div id="stein-login-screen-register-character-head-next" class="button">»</div>
+                        <div id="stein-login-screen-register-character-body-prev" class="button">«</div>
+                        <div id="stein-login-screen-register-character-body-next" class="button">»</div>
+                        <div id="stein-login-screen-register-character-display">
+                            <div id="stein-login-screen-register-character-head" style="background-image: url(/assets/images/human_idle_head_female_1_black.png);">
+                            </div>
+                            <div id="stein-login-screen-register-character-body" style="background-image: url(/assets/images/human_idle_body_human_female_african.png);">
+                            </div>
+                        </div>
+                        <div id="stein-login-screen-register-character-gender">
+                            <input type="radio" name="gender" value="male" id="stein-login-screen-register-character-gender-male">
+                            <label for="stein-login-screen-register-character-gender-male" class="stein-login-screen-register-checkbox-label-male"></label>
+                            <input type="radio" name="gender" value="female" id="stein-login-screen-register-character-gender-female">
+                            <label for="stein-login-screen-register-character-gender-female" class="stein-login-screen-register-checkbox-label-female"></label>
+                        </div>
+                        <label for="stein-login-screen-register-name" class="stein-form-label">Username:</label>
+                        <input autocomplete="username" type="text" id="stein-login-screen-register-name" /><br />
+                        <label for="stein-login-screen-register-email" class="stein-form-label">Email:</label>
+                        <input autocomplete="email" type="email" id="stein-login-screen-register-email" /><br />
+                        <label for="stein-login-screen-register-password" class="stein-form-label">Password:</label>
+                        <input autocomplete="new-password" type="password" id="stein-login-screen-register-password" /><br />
+                        <label for="stein-login-screen-register-password-repeat" class="stein-form-label">Repeat password:</label>
+                        <input autocomplete="new-password" type="password" id="stein-login-screen-register-password-repeat" /><br />
+                        <label for="stein-login-screen-register-server-select" class="stein-form-label">Server:</label>
+                        <select id="stein-login-screen-register-server-select">
+                            <option value="ptr">Europe - 1</option>
+                        </select><br />
+                        <div style="display: flex;align-items: center;">
+                            <span class="stein-form-label">
+                                <a href="/tos" target="_blank" style="color: rgb(182, 220, 135);">Terms of Service</a><br />
+                                & <a href="/privacypolicy" target="_blank" style="color: rgb(182, 220, 135);">Privacy Policy:</a> </span>
+                            <input type="checkbox" id="stein-login-screen-register-accept-tos"/>
+                            <label for="stein-login-screen-register-accept-tos" class="checkbox-label" style="margin-top: -4px;margin-left:3px;"></label>
+                            <span style="margin-top: 4px;
+                                margin-left: 4px;">Accept</span>
+                        </div>
+                        <span class="stein-form-label"></span>
+                        <button type="submit" id="stein-login-screen-register-button">Register</button>
+                    </form>
+                </div>
+            </div>
+            <div class="stein-login-screen-version-info stein-text-border">v0.3.22d</div>
+            <div id="stein-login-screen-app-buttons">
+                <button id="stein-login-screen-fullscreen" style="display: none;">=</button>
+                <button id="stein-login-screen-exit" style="background-color: #ef1726; display: none;">X</button>
+            </div>
+        </div>
+        <div class="stein-container">
+            <div class="stein-box-container stein-window">
+                <div class="stein-login-screen-content-box">
+                    <div class="stein-window-container stein-text-border" style="text-align: center;
+                        font-size: 14px;
+                        font-family: 'Roboto Condensed';
+                        font-weight: 500;">
+                        <h1 style="text-align: center;">Free to play MMORPG - stein.world - online browser RPG</h1>
+                        <p>
+                        Stein.world is a new free-to-play real-time browser based MMORPG with many common features of the MMO and multiplayer genre: a persistent and diverse 2d pixel fantasy world, hundreds of quests and cool items, dungeons, crafting, server rankings and much more to come. In addition, all it takes to embark on this online RPG adventure is a device with a modern internet browser installed. Play on PC (Windows, mac OS or Linux), a tablet or mobile device (Android or iOS).
+                        </p>
+                        <p>
+                        It's as simple as opening a website in your browser – because that's literally all you have to do!
+                        </p>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stein-container">
+            <div class="stein-box-container stein-window">
+                <div class="stein-window-top">
+                    <span class="stein-text-border">SCREENSHOTS</span>
+                </div>
+                <div class="stein-login-screen-content-box">
+                    <div class="stein-login-screen-screenshot-container stein-window-container stein-text-border">
+                        <a href="/assets/images/media/stein_new_ui_1.png" target="_blank"><div class="stein-login-screen-screenshot stein-window-container" style="background-image: url(/assets/images/media/stein_new_ui_1_thump.png);"></div></a>
+                        <a href="/assets/images/media/stein_new_ui_2.png" target="_blank"><div class="stein-login-screen-screenshot stein-window-container" style="background-image: url(/assets/images/media/stein_new_ui_2_thump.png);"></div></a>
+                        <a href="/assets/images/media/stein_new_ui_3.png" target="_blank"><div class="stein-login-screen-screenshot stein-window-container" style="background-image: url(/assets/images/media/stein_new_ui_3_thump.png);"></div></a>
+                        <a href="/assets/images/media/stein_new_ui_4.png" target="_blank"><div class="stein-login-screen-screenshot stein-window-container" style="background-image: url(/assets/images/media/stein_new_ui_4_thump.png);"></div></a>
+                        <a href="/assets/images/media/stein_new_ui_5.png" target="_blank"><div class="stein-login-screen-screenshot stein-window-container" style="background-image: url(/assets/images/media/stein_new_ui_5_thump.png);"></div></a>
+                        <a href="/assets/images/media/stein_new_ui_6.png" target="_blank"><div class="stein-login-screen-screenshot stein-window-container" style="background-image: url(/assets/images/media/stein_new_ui_6_thump.png);"></div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stein-container">
+            <div class="stein-box-container stein-window">
+                <div class="stein-login-screen-content-box">
+                    <div class="stein-window-container stein-text-border" style="text-align: center;
+                      font-size: 14px;
+                      font-family: 'Roboto Condensed';
+                      font-weight: 500;">
+                        <p>
+                        What originally started as a small and fun hobby project and exercise in HTML5 coding has slowly evolved into a popular full blown F2P retro MMORPG experience.
+The player can embark on numerous adventures and fight a variety of different enemies and monsters. They are able to learn various professions like mining, herbalism or tailoring in order to craft epic pieces of equipment and consumables. They can trade with each other, chat or unite in a group of up to five people to face the numerous threats of the dungeons & wave dungeons together. Stein.world offers a wide range of different types of items, so players can customize their character and classes to their liking. There is no strict class system within the game; the items themselves dictate the play style. That and much more awaits players within stein.world, while they’re on their epic quest to recover their lost family heirloom: the eponymous family beer stein.
+In addition the 2D fantasy RPG stein.world is theoretically capable of running on any device or smartphone that can run a modern internet browser. The online browser game does not require any download, plugin or add-on.
+“Play anywhere, at any time, on anything.”
+                        </p>
+                        <p>
+                        A new and unique browser game concept – developed closely with the best community.
+Stein.world is an entirely free-2-play web MMORPG in an old-school 2D pixel look (16 bit). The top role-playing game relies on an active action combat system, meaning the player needs to dodge and execute attacks actively.  Aside from the already implemented RPG features the game is continually expanded with regular content updates. The next patch will introduce a housing and farming system that will allow players to maintain their own farm. Alongside the introduction of corresponding professions, players will have even more possibilities to prepare for their dangerous adventures. Those possibilities include cooking buff food or brewing their own potions from the crop yields of their own farms. In addition of the gameplay expansions the developers behind stein.world are currently working on optimizing the UI and controls for the mobile experience of the web game as well as developing dedicated client apps for Android and iOS.
+Stein.world is an entirely free2play MMORPG game. There are no pay walls for any of the already existing or upcoming gameplay features. The MMORPG game offers a fair pay to skip model for some of the gameplay elements. There is no option to buy better equipment for real life currency. The aim of the studio is to avoid splitting the player base and to avoid creating a pay to win environment like many other browser and web games do.
+                        </p>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stein-container">
+            <div class="stein-box-container stein-window">
+                <div class="stein-window-top">
+                    <span class="stein-text-border">NEWS</span>
+                </div>
+                <div>
+    
+        <a href="/news/55/halloween+2023+%2528v0.3.22%2529" class="stein-login-news-content stein-window-container stein-text-border">
+            <div class="stein-login-news-content-inner">
+                <div class="stein-login-news-entry-image" style="background-image: url(/assets/images/icons/news/patchnotes.png)"></div>
+                <div class="stein-login-news-information">
+                    <div class="stein-login-news-header">
+                        <div class="stein-login-news-title">Halloween 2023 (v0.3.22)</div>
+                        <div class="stein-login-news-category">Patchnotes</div>
+                    </div>
+                    <div class="stein-login-news-summary">
+                    <p>Time to celebrate Halloween in stein.world! We got ghosts, skeletons and witches which all have their involvement in Mr. Treweeks quest to get back alive.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stein-login-news-arrow"><div class="stein-icon-arrow"></div></div>
+        </a>
+    
+        <a href="/news/54/hotfix+v0.3.21b" class="stein-login-news-content stein-window-container stein-text-border">
+            <div class="stein-login-news-content-inner">
+                <div class="stein-login-news-entry-image" style="background-image: url(/assets/images/icons/news/patchnotes.png)"></div>
+                <div class="stein-login-news-information">
+                    <div class="stein-login-news-header">
+                        <div class="stein-login-news-title">Hotfix v0.3.21b</div>
+                        <div class="stein-login-news-category">Patchnotes</div>
+                    </div>
+                    <div class="stein-login-news-summary">
+                    <p>This is a small hotfix patch, which fixes some problems and tries out some stability improvements for the service.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stein-login-news-arrow"><div class="stein-icon-arrow"></div></div>
+        </a>
+    
+        <a href="/news/53/easter+2023+%2528v0.3.21%2529" class="stein-login-news-content stein-window-container stein-text-border">
+            <div class="stein-login-news-content-inner">
+                <div class="stein-login-news-entry-image" style="background-image: url(/assets/images/icons/news/patchnotes.png)"></div>
+                <div class="stein-login-news-information">
+                    <div class="stein-login-news-header">
+                        <div class="stein-login-news-title">Easter 2023 (v0.3.21)</div>
+                        <div class="stein-login-news-category">Patchnotes</div>
+                    </div>
+                    <div class="stein-login-news-summary">
+                    <p>We updated the easter event for this year and added some improvements to the game.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stein-login-news-arrow"><div class="stein-icon-arrow"></div></div>
+        </a>
+    
+        <a href="/news/52/st.+patrick%2527s+day+%2528v0.3.20%2529" class="stein-login-news-content stein-window-container stein-text-border">
+            <div class="stein-login-news-content-inner">
+                <div class="stein-login-news-entry-image" style="background-image: url(/assets/images/icons/news/patchnotes.png)"></div>
+                <div class="stein-login-news-information">
+                    <div class="stein-login-news-header">
+                        <div class="stein-login-news-title">St. Patrick&#x27;s Day (v0.3.20)</div>
+                        <div class="stein-login-news-category">Patchnotes</div>
+                    </div>
+                    <div class="stein-login-news-summary">
+                    <p>Get Lucky with the new St. Patrick&#39;s Day Items! Besides that some minor improvements for the UI were added.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stein-login-news-arrow"><div class="stein-icon-arrow"></div></div>
+        </a>
+    
+        <a href="/news/51/quest+balancing+changes+%2528v0.3.19a%2529" class="stein-login-news-content stein-window-container stein-text-border">
+            <div class="stein-login-news-content-inner">
+                <div class="stein-login-news-entry-image" style="background-image: url(/assets/images/icons/news/patchnotes.png)"></div>
+                <div class="stein-login-news-information">
+                    <div class="stein-login-news-header">
+                        <div class="stein-login-news-title">Quest Balancing Changes (v0.3.19a)</div>
+                        <div class="stein-login-news-category">Patchnotes</div>
+                    </div>
+                    <div class="stein-login-news-summary">
+                    <p>Today&#39;s patch contains some balancing changes for quests. This should help new players and remove some points in the leveling process, where progress got unreasonably hard.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stein-login-news-arrow"><div class="stein-icon-arrow"></div></div>
+        </a>
+    
+</div>
+                <div style="text-align: right;margin-top: 2px;">
+                    <a href="/news"><button>All News</button></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="stein-footer-container">
+            <div class="stein-footer stein-window stein-text-border">
+                <a href="/imprint" target="_blank">Imprint</a> <a href="/privacypolicy" target="_blank">Privacy Policy</a> <a href="/tos" target="_blank">Terms of Service</a> <a href="/presskit" target="_blank">Press Kit</a>
+            </div>
+        </div>
+        <div id="stein-cookie-disclaimer-container" class="stein-window stein-text-border" style="display: none;">
+            By continuing to use our service, you accept the use of cookies to improve the user experience of our service.<br />
+    For further information please see our <a href="/privacypolicy" target="_blank" style="color: rgb(182, 220, 135);">Privacy Policy</a>.
+            <div style="margin-top: 5px;">
+                <button id="stein-cookie-disclaimer-accept" style="width: 100px;">OK</button>
+            </div>
+        </div>
+        
+
+
+  
+
+
+
+
+  
+<script src="/assets/88c717b9148ba96d3384395cb54d90d0-loginclient-opt-bundle.js" type="text/javascript" ></script>
+
+
+
+
+
+  
+
+
+
+    </body>
+</html>
